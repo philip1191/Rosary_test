@@ -1,0 +1,127 @@
+:root{color-scheme:light;--paper:#f8f5ee;--card:#fffdf8;--ink:#303a32;--green:#384e43;--light:#e8ece4;--line:#deddd2;--muted:#777b71;--gold:#a27e4c;--red:#a04435;font-family:system-ui,-apple-system,'Noto Sans KR',sans-serif;font-size:15px}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink)}button,input,textarea,select{font:inherit}button,a,input,textarea,select{-webkit-tap-highlight-color:transparent}button{cursor:pointer;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink);padding:10px 15px;min-height:44px;line-height:1.4}button:hover{background:var(--light)}button:disabled{opacity:.45;cursor:wait}button:focus-visible,a:focus-visible,summary:focus-visible,[tabindex]:focus-visible{outline:2px solid var(--gold);outline-offset:3px}button.primary{background:var(--green);color:#fff;border-color:var(--green)}button.quiet{border-color:transparent;background:transparent}button.danger{color:var(--red)}[hidden]{display:none!important}.shell{max-width:1060px;margin:auto;padding:0 42px}.masthead{display:flex;align-items:center;justify-content:space-between;padding:35px 0 26px;gap:15px}.brand{display:flex;align-items:center;gap:15px;text-decoration:none;color:inherit}.cross{font-size:34px;color:var(--gold);font-family:Georgia,serif}.eyebrow{display:block;letter-spacing:.13em;font-size:10px;color:var(--muted);margin-bottom:5px}h1,h2,h3,.serif{font-family:'Noto Serif KR','Batang',serif}h1{font-size:25px;font-weight:500;margin:0;letter-spacing:-.05em}h2{font-size:26px;font-weight:500;margin:0}h3{font-size:20px;font-weight:500;margin:0}.connection{font-size:11px;color:var(--muted);white-space:nowrap}.connection:before{content:' ';display:inline-block;width:5px;height:5px;background:#718769;border-radius:50%;margin-right:6px}.tabs{display:flex;border-bottom:1px solid var(--line);gap:32px}.tabs button{min-width:68px;border:0;border-radius:0;background:none;padding:15px 10px;color:var(--muted);border-bottom:3px solid transparent}.tabs button[aria-current]{border-bottom-color:var(--green);color:var(--green);font-weight:700}.status{min-height:34px;font-size:11px;color:var(--muted);padding:9px 0 5px;text-align:right}.notice{padding:14px 16px;background:var(--light);border-radius:8px;margin-top:15px;line-height:1.7;overflow-wrap:anywhere}.error{background:#f6e8e3;color:#853c2e;border:1px solid #e7c2b7}.section-heading{display:flex;justify-content:space-between;align-items:center;margin:10px 0 24px;gap:12px}.kicker{font-size:10px;letter-spacing:.18em;color:var(--gold);margin:0 0 10px}.muted{color:var(--muted);font-size:13px;line-height:1.75}.month-nav{display:flex;gap:6px}.month-nav button{font-size:19px;padding:6px 14px}.calendar-layout{display:grid;grid-template-columns:1.45fr 1fr;gap:22px;align-items:start}.panel{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:23px}.calendar-panel{padding:22px 18px}.weekdays,.calendar-grid{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));text-align:center}.weekdays{font-size:11px;color:var(--muted);padding-bottom:14px}.weekday-sun{color:#a37462}.date{position:relative;aspect-ratio:1/1;min-height:48px;padding:6px 2px;border:0;border-radius:10px;background:transparent;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;font-size:14px}.date .mark{font-size:9px;color:var(--gold);height:12px;line-height:12px}.date.selected{background:var(--green);color:white}.date.selected .mark{color:#ecd5a7}.date.today:not(.selected){box-shadow:inset 0 0 0 1px var(--gold)}.calendar-foot{display:flex;gap:18px;border-top:1px solid var(--line);margin-top:18px;padding:18px 7px 0;font-size:11px;color:var(--muted)}.calendar-foot strong{font-size:23px;color:var(--green);font-weight:500;margin-right:5px}.record-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:20px}.record-head h3{font-size:19px}.tag{font-size:10px;letter-spacing:.1em;color:var(--gold)}label.field{display:block;margin-bottom:17px;font-size:12px;color:#5f685d}input:not([type=radio]),textarea,select{width:100%;border:1px solid var(--line);background:#fffefb;border-radius:7px;padding:11px 12px;color:var(--ink);outline:none}input:focus,textarea:focus,select:focus{border-color:var(--gold);box-shadow:0 0 0 2px #a27e4c17}label.field input,label.field textarea,label.field select{display:block;margin-top:8px}textarea{resize:vertical;min-height:100px;line-height:1.85}input[type=number]{max-width:130px}label.field textarea.memo{min-height:150px}.record-actions{display:flex;justify-content:space-between;gap:8px}.record-actions button{font-size:11px;padding:8px 12px}.mystery-tabs{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:6px 0 22px}.mystery-tabs button{font-size:13px;padding:11px 6px}.mystery-tabs button.active{background:var(--green);color:#fff;border-color:var(--green)}.decade-nav{display:flex;align-items:center;justify-content:space-between;padding:0 0 19px;border-bottom:1px solid var(--line)}.decade-numbers{display:flex;gap:4px}.decade-numbers button{width:38px;min-height:38px;padding:4px;border:0;background:transparent}.decade-numbers button.active{background:var(--light);border-radius:50%;color:var(--green)}.decade-nav>button{font-size:12px;min-width:64px}.mystery-top{display:flex;gap:24px;justify-content:space-between;align-items:flex-start;padding:25px 0 22px}.mystery-title{padding-top:8px;flex:1;min-width:0}.mystery-title h2{font-size:28px;line-height:1.65;word-break:keep-all;letter-spacing:-.04em}.mystery-title .kicker{font-size:12px;letter-spacing:.06em}.rosaries{width:212px;flex:0 0 212px;display:flex;gap:8px;justify-content:flex-end}.rosary{width:102px;height:160px;flex:0 0 102px;padding:10px 7px;border:1px solid var(--line);border-radius:10px;background:var(--card);touch-action:none;user-select:none;-webkit-user-select:none;display:flex;flex-direction:column;align-items:stretch;overflow:hidden}.rosary-caption{font-size:10px;color:var(--muted);height:17px}.beads{height:60px;display:grid;grid-template-columns:repeat(6,1fr);align-content:center;justify-items:center;gap:13px 2px}.bead{display:block;width:7px;height:7px;border:1px solid #aeb7aa;border-radius:50%;align-self:center}.bead.big{width:11px;height:11px}.bead.cross-bead{width:11px;height:15px;border:0;border-radius:0;background:none;font-size:15px;line-height:15px;color:var(--muted)}.bead.done{background:#b9c3b0}.bead.current{background:var(--green);border-color:var(--green);box-shadow:0 0 0 3px #dbe2d5}.bead.cross-bead.current{color:var(--green);background:transparent}.prayer-name{height:38px;font-size:12px;line-height:18px;display:flex;align-items:center;justify-content:center;word-break:keep-all}.bead-count{height:14px;font-size:9px;color:var(--muted)}.book-layout{display:grid;grid-template-columns:.9fr 1.1fr;gap:25px;align-items:start}.art-card{margin:0;border:1px solid var(--line);border-radius:12px;background:var(--card);overflow:hidden}.art-display{width:100%;min-height:280px;border:0;border-radius:0;padding:0;background:transparent;display:flex;align-items:center;justify-content:center}.art-display img{display:block;width:100%;max-height:560px;object-fit:contain}.art-placeholder{padding:45px 20px;color:var(--muted);font-size:13px;line-height:2}.art-placeholder .art-cross{font-size:34px;color:#bca782;display:block;margin-bottom:14px}.art-actions{display:flex;justify-content:flex-end;gap:5px;border-top:1px solid var(--line);padding:8px}.art-actions button{font-size:11px;padding:7px 12px}.reading-column{min-width:0}.scripture{padding:22px 24px;background:#eeeede;border-left:2px solid #a5ae96;border-radius:0 8px 8px 0;margin-bottom:22px}.scripture .prose{font-family:'Noto Serif KR','Batang',serif;font-size:16px;line-height:2}.scripture .actions{justify-content:flex-end;margin-top:12px}.scripture button{font-size:11px;padding:4px 10px;background:transparent}.add-scripture{width:100%;margin-bottom:20px;background:transparent;border-style:dashed;color:var(--muted)}.prose{white-space:pre-wrap;overflow-wrap:anywhere;line-height:1.95;font-size:15px}.assigned-prayer{padding:21px 0;border-bottom:1px solid var(--line);position:relative;user-select:none;-webkit-user-select:none;-webkit-touch-callout:none}.assigned-prayer h3{margin-bottom:12px;font-size:18px}.assigned-prayer.dragging{background:#e8ece4;border:2px solid var(--gold);border-radius:9px;padding:19px 12px;box-shadow:0 6px 18px #303a3215}.assigned-prayer .prose{font-size:14px}.manage-button{width:100%;margin-top:22px;color:var(--green)}.manage-panel{background:var(--light);border-radius:10px;padding:18px;margin-top:12px}.manage-panel .actions{margin-top:15px}.manage-panel select{background:var(--card)}.scope{display:flex;flex-wrap:wrap;gap:12px;margin:14px 0;font-size:12px}.scope label{display:flex;align-items:center;gap:4px;min-height:32px}.manage-row{display:flex;align-items:center;justify-content:space-between;gap:8px;font-size:12px;margin-top:10px;border-top:1px solid #d0d5ca;padding-top:10px}.manage-row span{overflow-wrap:anywhere;flex:1}.manage-row button{font-size:11px;min-height:40px;padding:5px 8px}.manage-row .actions{margin:0;gap:3px}.actions{display:flex;gap:8px;flex-wrap:wrap}.prayer-library{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}.prayer-card h3{margin-bottom:16px}.prayer-card .actions{margin-top:20px;justify-content:flex-end}.prayer-card button{font-size:12px}.empty-state{text-align:center;border:1px dashed var(--line);border-radius:12px;padding:65px 20px;color:var(--muted);grid-column:1/-1}.empty-state h3{color:var(--green);margin:14px 0}.empty-state p{font-size:13px;line-height:1.8}.empty-icon{font-size:30px;color:var(--gold)}footer{margin-top:48px;border-top:1px solid var(--line)}summary{cursor:pointer;padding:18px 0;font-size:12px;color:var(--muted);min-height:48px}.tools{padding:0 0 18px}.tools p{font-size:12px}.tools button{font-size:12px}.version{font-size:10px;color:var(--muted)}.footer-line{text-align:center;font-family:serif;color:#999a8b;font-size:12px;letter-spacing:.1em;padding:25px 0 30px}dialog{border:1px solid var(--line);border-radius:15px;background:var(--paper);color:var(--ink);padding:25px;max-width:560px;width:calc(100% - 30px);max-height:90dvh}dialog::backdrop{background:#18251dc0;backdrop-filter:blur(3px)}.dialog-head{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:20px}.dialog-head h2{font-size:22px}.dialog-actions{display:flex;justify-content:flex-end;gap:8px;margin-top:22px}#editor textarea{min-height:220px}#lightbox{background:#171d18;border:0;width:100vw;height:100dvh;max-width:100vw;max-height:100dvh;padding:60px 12px 15px;border-radius:0}#lightbox img{width:100%;height:100%;object-fit:contain}.lightbox-close{position:absolute;top:12px;right:16px;background:#fffdf8}.drag-hint{font-size:11px;color:var(--muted);margin-top:10px}.diagnostic-link{font-size:11px;color:var(--muted)}@media(min-width:1200px){.shell{padding:0 32px}.masthead{padding-top:45px}}@media(max-width:700px){.shell{padding:0 19px}.masthead{padding:25px 0 20px}.connection{font-size:9px}h1{font-size:22px}.brand{gap:10px}.cross{font-size:28px}.tabs{gap:20px}.calendar-layout,.book-layout{grid-template-columns:1fr}.prayer-library{grid-template-columns:1fr}.section-heading{margin:6px 0 18px}h2{font-size:23px}.date{min-height:44px}.panel{padding:20px}.calendar-panel{padding:18px 12px}.mystery-top{gap:15px;flex-wrap:wrap;padding-top:20px}.mystery-title{flex-basis:100%}.mystery-title h2{font-size:25px}.rosaries{margin-left:auto}.book-layout{gap:20px}.art-display{min-height:240px}.art-display img{max-height:470px}.mystery-tabs{gap:4px}.mystery-tabs button{font-size:11px;padding:10px 2px}.mystery-top .kicker{margin-bottom:4px}.decade-numbers{gap:0}.decade-numbers button{width:32px}.decade-nav>button{min-width:53px;padding:8px}.scripture{padding:20px}.record-actions button{font-size:12px}footer{margin-top:32px}}@media(prefers-reduced-motion:no-preference){button{transition:background .15s,color .15s}dialog[open]{animation:appear .15s ease-out}@keyframes appear{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}}
+/* Draw a neutral cross in CSS so Android does not substitute a purple emoji. */
+.cross,.art-cross,.empty-icon{display:inline-block!important;font-size:0!important;width:22px;height:30px;flex-shrink:0;background:var(--gold);clip-path:polygon(40% 0,60% 0,60% 28%,100% 28%,100% 44%,60% 44%,60% 100%,40% 100%,40% 44%,0 44%,0 28%,40% 28%)}.art-cross{display:block!important;margin:0 auto 20px!important}.bead.cross-bead{font-size:0!important;clip-path:polygon(40% 0,60% 0,60% 28%,100% 28%,100% 44%,60% 44%,60% 100%,40% 100%,40% 44%,0 44%,0 28%,40% 28%);background:#aeb7aa!important}.bead.cross-bead.current{background:var(--green)!important}
+
+/* 1.0.4: scripture remains above the two reorderable sections. */
+.book-layout-custom{display:block}.scripture-top{margin-bottom:16px}.scripture-top .manage-button{margin-top:0}.scripture-top #scriptureContents{margin-top:12px}.scripture-top #scriptureContents[hidden]{display:none}.section-reorder{display:flex;justify-content:space-between;align-items:center;gap:10px;margin:16px 0;font-size:12px;color:var(--muted)}.book-sections{display:flex;flex-direction:column;gap:20px}.book-sections.prayers-first .reading-column{order:-1}.book-sections .art-card{width:100%}.book-sections .art-display img{max-height:560px}.scripture h3{margin-bottom:12px}.mystery-count{max-width:130px}
+
+/* Virtual rosaries sit between the artwork and prayers, aligned right. */
+.book-sections .rosaries-between{width:100%;flex:0 0 auto;justify-content:flex-end;margin:0 0 4px;gap:10px}.book-sections .rosaries-between .rosary{width:102px;flex:0 0 102px}
+
+/* Collapsible prayer titles; long press to reorder in both views. */
+.prayer-fold>summary.prayer-fold-title{display:flex;align-items:center;justify-content:space-between;gap:12px;cursor:pointer;list-style:none;color:var(--ink);font-size:18px;font-weight:600;padding:4px 0;min-height:44px;touch-action:pan-y;user-select:none;-webkit-user-select:none;-webkit-touch-callout:none}
+.prayer-fold>summary::-webkit-details-marker{display:none}
+.prayer-fold .fold-chevron{font-size:20px;color:var(--muted);transition:transform .15s}
+.prayer-fold[open] .fold-chevron{transform:rotate(180deg)}
+.prayer-fold>.prose{padding:12px 0 4px;user-select:text;-webkit-user-select:text}
+.prayer-sortable.dragging{background:#e8ece4;border:2px solid var(--gold);border-radius:9px;box-shadow:0 6px 18px #303a3215;position:relative;z-index:2}
+.prayer-card .actions{margin-top:12px}
+.prayer-library{display:flex;flex-direction:column;gap:12px}
+
+/* Compact, full-width horizontal virtual rosaries. */
+.book-sections .rosaries-between{display:flex;width:100%;justify-content:stretch;align-items:stretch;gap:10px;margin:0 0 4px}
+.book-sections .rosaries-between .rosary{flex:1 1 0;width:0;min-width:0;height:96px;padding:7px 10px;align-items:stretch}
+.book-sections .rosaries-between .rosary-caption{height:15px;font-size:10px;text-align:center}
+.book-sections .rosaries-between .beads{display:flex;flex-wrap:nowrap;justify-content:space-evenly;align-items:center;gap:2px;height:22px;min-height:22px}
+.book-sections .rosaries-between .bead{flex:0 0 auto}
+.book-sections .rosaries-between .prayer-name{height:24px;font-size:11px;line-height:15px}
+.book-sections .rosaries-between .bead-count{height:13px;font-size:9px}
+@media(max-width:400px){.book-sections .rosaries-between{gap:7px}.book-sections .rosaries-between .rosary{padding:7px 5px}.book-sections .rosaries-between .bead{width:6px;height:6px}.book-sections .rosaries-between .bead.big{width:9px;height:9px}}
+
+/* Hide numeric bead progress and reclaim vertical space in both rosary cards. */
+.book-sections .rosaries-between .rosary{height:76px;padding:6px 10px;justify-content:center}
+.book-sections .rosaries-between .rosary-caption{height:15px}
+.book-sections .rosaries-between .beads{height:20px;min-height:20px}
+.book-sections .rosaries-between .prayer-name{height:22px}
+.book-sections .rosaries-between .bead-count{display:none}
+
+/* User appearance preferences; no prayer data schema changes. */
+.header-controls{display:flex;align-items:center;gap:9px}.appearance-trigger{font-size:12px;padding:7px 10px;min-height:38px;white-space:nowrap}.appearance-fields{display:grid;gap:16px;overflow-y:auto;max-height:calc(90dvh - 110px)}.appearance-fields .field{display:grid;gap:8px}.logo-options{display:flex;gap:8px;flex-wrap:wrap}.appearance-colors{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:9px}.appearance-swatch{min-height:43px;border:2px solid #8d8d8d;position:relative}.appearance-swatch[aria-pressed=true]{outline:3px solid var(--gold);outline-offset:2px}.appearance-swatch[aria-pressed=true]::after{content:'✓';font-weight:700;color:#111;background:#ffffffcf;border-radius:50%;padding:0 5px}.custom-color{display:flex;align-items:center;gap:15px;font-size:13px}.custom-color input{height:42px;width:75px;padding:2px}.crop-viewport{display:flex;justify-content:center;touch-action:none}.crop-viewport canvas{width:min(300px,100%);aspect-ratio:1;border:2px solid var(--gold);border-radius:8px;touch-action:none;background:#fff}.brand-logo{width:72px;height:72px;object-fit:contain;border-radius:5px;flex-shrink:0}.appearance-fields .muted{font-size:12px;margin:2px 0}.appearance-fields .dialog-actions{flex-wrap:wrap}body{background:var(--paper)}
+@media(max-width:700px){.header-controls{gap:5px}.appearance-trigger{font-size:11px;padding:6px 8px}.connection{max-width:85px}}
+
+/* Dedicated fourth tab: appearance page. */
+.appearance-page{padding:0 0 18px}.appearance-panel{max-width:760px;margin:0 auto}.appearance-fields{max-height:none;overflow:visible}.appearance-page[hidden],#main[hidden]{display:none!important}.appearance-page .dialog-actions{justify-content:flex-start}
+
+/* Allow vertical page scrolling over the logo preview unless repositioning is enabled. */
+.crop-viewport,.crop-viewport canvas{touch-action:pan-y}
+.crop-viewport.is-moving,.crop-viewport.is-moving canvas{touch-action:none}
+.crop-mode-actions{align-items:center;margin-bottom:12px}
+.crop-mode-actions .muted{flex:1}
+
+/* Theme the page surfaces as well as the outer background. */
+input:not([type=radio]),textarea,select{background:var(--input-bg,#fffefb)}
+.scripture{background:var(--scripture-bg,#eeeede);border-left-color:var(--line)}
+.assigned-prayer.dragging,.prayer-sortable.dragging{background:var(--light)}
+.manage-row{border-top-color:var(--line)}
+label.field{color:var(--ink)}
+
+/* User logo replaces the default cross. Override legacy important rule. */
+.brand .cross[style*="display: none"], .brand .cross[hidden]{display:none!important;}
+
+/* Global user-selected font: headings, brand title, prayer text, controls and dialogs. */
+:root{--app-font:system-ui,-apple-system,'Noto Sans KR',sans-serif}
+html,body,button,input,textarea,select,option,summary,dialog,h1,h2,h3,h4,h5,h6,.serif,.scripture .prose,.footer-line,.cross{font-family:var(--app-font)!important}
+
+/* Multiple scripture entries, styled like prayer-library accordions. */
+.scripture-toolbar{display:flex;justify-content:flex-end;margin:10px 0 14px}.scripture-toolbar button{min-height:42px}.scripture-list{display:flex;flex-direction:column;gap:12px}.scripture-entry{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 18px;touch-action:pan-y}.scripture-entry .prayer-fold-title{font-size:16px;font-weight:600}.scripture-entry .actions{justify-content:flex-end;margin-top:12px}.scripture-entry .actions button{font-size:12px}.scripture-entry .prose{padding:8px 0 12px}.scripture-entry.dragging{background:var(--light);border:2px solid var(--gold);z-index:2;position:relative;touch-action:none}
+
+/* Compact spacing after removal of decorative headings and footer slogan. */
+.masthead{padding-top:24px;padding-bottom:20px}
+.section-heading{margin-top:6px;margin-bottom:16px}
+footer{margin-top:28px}
+@media(max-width:700px){.masthead{padding-top:18px;padding-bottom:15px}.section-heading{margin-top:4px;margin-bottom:14px}footer{margin-top:24px}}
+
+/* Full-width stacked rosaries on the first decade; same dimensions on every decade. */
+.book-sections .rosaries-between{display:flex;flex-direction:column;align-items:stretch;gap:10px;width:100%;}
+.book-sections .rosaries-between .rosary{display:flex;flex:0 0 auto;width:100%;min-width:0;height:61px;padding:7px 12px;justify-content:center;gap:3px;}
+.book-sections .rosaries-between .rosary-caption{display:none;}
+.book-sections .rosaries-between .beads{height:20px;min-height:20px;width:100%;}
+.book-sections .rosaries-between .prayer-name{height:20px;min-height:20px;line-height:20px;}
+@media(max-width:400px){.book-sections .rosaries-between .rosary{padding:7px 12px;}}
+
+/* Full-screen gallery controls, without changing the original image crop. */
+#lightbox{position:fixed;overscroll-behavior:contain;touch-action:pan-y;}
+#lightbox .lightbox-position{position:absolute;top:21px;left:12px;right:95px;color:#fff;text-align:center;font-size:13px;pointer-events:none;}
+#lightbox{padding-bottom:44px;}
+#lightbox .lightbox-hint{position:absolute;bottom:13px;left:0;right:0;text-align:center;color:#c5cdc6;font-size:12px;pointer-events:none;}
+
+/* Gallery: pinch to zoom and drag without obscuring the artwork. */
+#lightbox{overflow:hidden;}
+#lightbox #largeArt{touch-action:none;transform-origin:center center;will-change:transform;user-select:none;-webkit-user-select:none;-webkit-user-drag:none;}
+#lightbox #largeArt.zoomed{cursor:grab;}
+
+/* Missing artwork remains a navigable slide in the 20-decade viewer. */
+#lightbox .lightbox-empty{position:absolute;inset:65px 18px 50px;display:flex;align-items:center;justify-content:center;color:#c5cdc6;font-size:14px;text-align:center;pointer-events:none;}
+#lightbox .lightbox-empty[hidden],#lightbox #largeArt[hidden]{display:none!important;}
+
+/* Compact header help and accessible scrollable guide */
+.header-controls{display:flex;align-items:center;gap:9px}
+.help-trigger{width:32px;min-width:32px;height:32px;min-height:32px;padding:0;border-radius:50%;border:1px solid var(--line);background:var(--card);color:var(--green);font-size:16px;font-weight:700;line-height:1}
+.help-dialog{width:min(640px,calc(100vw - 28px));max-height:min(88dvh,850px);padding:0;border:1px solid var(--line);border-radius:14px;background:var(--card);color:var(--ink);box-shadow:0 20px 70px #0003;overflow:hidden}
+.help-dialog::backdrop{background:#152019a8}
+.help-head{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:17px 18px;border-bottom:1px solid var(--line)}
+.help-head h2{font-size:18px;line-height:1.4}
+.help-head button{min-height:36px;padding:5px 9px;flex-shrink:0}
+.help-body{padding:16px 20px 25px;max-height:calc(88dvh - 74px);overflow-y:auto;overscroll-behavior:contain;font-size:14px;line-height:1.8}
+.help-body h3{font-size:16px;margin:22px 0 8px;line-height:1.5}
+.help-body p{margin:8px 0 12px}
+.help-body ol,.help-body ul{padding-left:23px;margin:8px 0 12px}
+.help-body li{margin:4px 0}
+.help-ending{border-top:1px solid var(--line);padding-top:15px;color:var(--muted)}
+@media(max-width:700px){.header-controls{gap:6px}.help-trigger{width:30px;min-width:30px;height:30px;min-height:30px}.help-head{padding:14px}.help-head h2{font-size:16px}.help-body{padding:12px 16px 22px}}
+
+/* Music module: independent of the prayer data store. */
+.music-trigger{min-width:32px;width:32px;height:32px;min-height:32px;padding:0;border:1px solid var(--line);border-radius:50%;background:var(--card);color:var(--green);font-size:21px;line-height:1}
+.music-trigger.is-playing{outline:2px solid var(--gold);outline-offset:2px}
+.music-dialog{width:min(580px,94vw);max-height:88dvh;border:1px solid var(--line);border-radius:14px;padding:0;background:var(--card);color:var(--ink)}
+.music-dialog::backdrop{background:#0008}.music-body{padding:14px 18px 20px;overflow-y:auto;max-height:calc(88dvh - 65px);display:grid;gap:13px}
+.music-now{border:1px solid var(--line);border-radius:10px;padding:12px;display:grid;gap:12px}
+.music-progress{display:flex;align-items:center;gap:8px;font-size:12px}.music-progress input{flex:1;min-width:40px}
+.music-controls{display:flex;justify-content:center;gap:12px}.music-controls button{min-width:54px}
+.music-options{display:flex;flex-wrap:wrap;gap:10px;align-items:center}.music-options label{display:flex;align-items:center;gap:5px;font-size:13px}
+.music-options select{max-width:130px}.music-options input[type=range]{width:85px}
+.music-list-head{display:flex;gap:7px;align-items:center;flex-wrap:wrap}.music-list-head label{display:flex;gap:7px;align-items:center;flex-wrap:1}
+.music-list-head select{max-width:190px}.music-list-head button{font-size:12px;padding:8px}
+.music-tracks{display:grid;gap:7px}.music-track{display:flex;gap:7px;align-items:center;border:1px solid var(--line);padding:7px;border-radius:8px;min-width:0}
+.music-track .music-title{flex:1;min-width:0;overflow-wrap:anywhere;text-align:left;background:transparent;border:0;padding:4px}
+.music-track button{font-size:12px;padding:7px;min-height:32px}.music-track.is-current{border-color:var(--gold)}
